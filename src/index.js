@@ -40,11 +40,11 @@ class MyGame extends Phaser.Scene {
   }
 
   update() {
-    var pos = document.documentElement.scrollTop;
-    var speed = 2 + (pos / 250) * 25;
+    var pos = this.input.activePointer.position.y;
+    var speed = 2 + (pos / 500) * 25;
     this.cameras.main.scrollX += speed;
 
-    this.r1.setAlpha(pos / 250);
+    this.r1.setAlpha(pos / 500);
 
     if (this.cameras.main.scrollX > 40000) {
       this.cameras.main.scrollX = 0;
@@ -63,15 +63,6 @@ const config = {
     parent: "Phaser-Example",
     width: 800,
     height: 400
-  },
-  dom: {
-    createContainer: true
-  },
-  physics: {
-    default: "arcade",
-    arcade: {
-      gravity: { y: 200 }
-    }
   },
   scene: MyGame
 };
