@@ -7,4 +7,6 @@ Feel free to uses as you like.
 
 # Author
 
-Jerome graves - <jeromegraves.com>
+Jerome graves
+<br>
+<https://jeromegraves.com>
