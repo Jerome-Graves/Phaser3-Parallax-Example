@@ -1,4 +1,4 @@
-# Phaser 3 Parallax Example
+Phaser 3 Parallax Example
 
 Simple parallax example made with Phaser template and assets from:
 <br>

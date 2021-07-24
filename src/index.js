@@ -23,7 +23,6 @@ class MyGame extends Phaser.Scene {
     const height = this.scale.height;
     const totalWidth = width * 140;
 
-    //
     this.add
       .image(width / 2, height, "sky")
       .setScrollFactor(0)
