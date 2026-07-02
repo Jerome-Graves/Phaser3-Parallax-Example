@@ -5,7 +5,7 @@ A minimal, readable starting point for layered 2D backgrounds.
 
 ![Parallax scrolling demo](example-gif.gif)
 
-Live demo: <https://codesandbox.io/s/phaser3-parallax-example-rdv72>
+Live demo: <https://jeromegraves.com/Phaser3-Parallax-Example/>
 
 ## Run
 
