@@ -11,8 +11,9 @@ Live demo: <https://codesandbox.io/s/phaser3-parallax-example-rdv72>
 
 ```bash
 npm install
-npm start         # webpack-dev-server, opens the browser
-npm run build     # production build
+npm run dev       # Vite dev server
+npm run build     # production build to dist/
+npm run preview   # preview the production build
 ```
 
 ## Credits
